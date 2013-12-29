@@ -1,0 +1,506 @@
+html,
+body {
+	margin:0;
+	padding:0;
+	height:100%;
+}
+
+h1{
+	font-size: 36px;
+	line-height: 36px;
+	margin: 0;
+	padding: 0;
+	font-family: 'Satisfy', Helvetica, Arial, sans-serif;
+	border-bottom: 1px solid #d9d9d9;
+	margin-bottom: 61px;
+
+}
+
+
+body{
+	color: #d9d9d9;
+	font-size: 12px;
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+	background:#000000; /*url('../img/bg.jpg')   no-repeat center top*/
+	padding: 0;
+	margin: 0 auto;
+
+}
+
+.header{
+
+	width: 960px;
+	margin: 0 auto;
+	height: 147px;
+	
+}
+
+header{
+	background:#34120c url('../img/feu-header.png') no-repeat center;
+	width: 100%;
+	margin: 0 auto;
+	height: 147px;
+}
+
+#logopizzanna{
+	margin-left: 269px;
+}
+
+.navig{
+	width: 100%;
+	background: url('../img/menu.jpg') repeat-x;
+	height: 139px;
+	position: relative;
+	margin-bottom:15px;
+
+}
+
+
+/*#camion{
+	margin-top:85px;
+	}*/
+
+
+	.panier{
+		width: 169px;
+		float: right;
+		padding-top: 10px;
+		padding-left: 7px;
+		margin-top: 8px;
+		background-color: rgba(0, 0, 0, 0.6);
+		 
+		color: rgba(0, 0, 0, 0.6);
+
+
+	}
+
+
+
+
+	.navbar .nav>li.rouge>a {
+		color:#cb0e09;
+	}
+
+	.logo{
+		height: 150px;
+		width: 149px;
+		position: absolute;
+		margin-top:-40px;
+
+	}
+
+	#nav{
+		width:960px;
+		margin:auto; 
+	}
+
+	nav #navi{
+		padding: 0 0 0 193px;
+		margin: 0;
+		list-style: none;
+	}
+
+
+	.wrapper{
+		width: 960px;
+		margin: auto;
+		padding-bottom: 110px;
+	}
+
+
+	#news{
+
+		width: 287px;
+		margin-left: 15px;
+		margin-right: 28px;
+		background: #fafafa;
+		color: #444;
+		-webkit-border-radius: 5px;
+
+		border-radius: 5px;
+		height: 379px;
+		float: left;
+		color:#444444;
+		position: relative;
+	}
+
+	#news span{
+		display: block;
+
+		border-bottom: 1px solid #D9D9D9;
+		width: 252px;
+		margin: 0 auto 5px ;
+		font-weight: bold;
+	}
+
+	#news p {
+
+		padding-left: 29px;
+		width: 269px;
+
+
+	}
+
+
+
+
+/**********************************************************
+Qui sommes nous ?
+********/
+
+#blocksophie{
+	float: left;
+	width: 50%;
+}
+
+#blockjc{
+	float: right;
+	width: 50%;
+
+}
+
+
+#camionsophie{
+	width: 401px;
+	background: #444444;
+	padding: 88px 28px 0  28px;
+	height: 379px;
+	float: left;
+	position: relative;
+
+}
+
+
+.bandeauqsn{
+	position: absolute;
+	width: 477px;
+	height: 45px;
+	background: url('../img/bandeaudqsn.png') no-repeat;
+	right: -9px;
+	top: 28px;
+
+}
+
+.bandeauqsn h2{
+	font-size: 20px;
+	color: #444444;
+	text-align: center;
+	line-height: 20px;
+
+
+
+
+}
+
+
+
+#camionJeanClaude{
+	width: 401px;
+	padding: 88px 28px 0  28px;
+	background: #444444;
+	height: 379px;
+	float: right;
+	position: relative;
+
+}
+
+/**********************************************************
+Ou nous trouver
+********/
+
+
+
+.deroule{
+	display : block;
+	width : 190px;
+	font-family: 'Satisfy', Helvetica, Arial, sans-serif;
+	font-size: 36px;
+	display: block;
+	background: url("../img/fleche.png") no-repeat right -17px;
+	color: #d9d9d9;
+	line-height: 36px;
+	margin-bottom: 18px;
+}
+
+
+.deroule:hover, .deroule:focus{
+
+	color: #fa3434;
+	text-decoration: none;
+
+
+
+}
+
+
+.enroule {
+	background: url("../img/fleche.png") no-repeat right 17px;
+}
+
+#monBloc, #mardis, #mercredis, #Jeudis, #Vendredis, #Samedis, #Dimanches{
+	width: 861px;
+	background: #444444;
+	padding: 15px 25px 0 15px;
+	margin-bottom: 21px;
+}
+
+.bloccarte1{
+	width: 364px;
+	float: left;
+	margin-right: 83px;
+	height: 367px
+
+
+}
+
+.bloccarte1 h2{
+	font-weight: bold;
+
+	font-size: 24px;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+
+}
+
+.bloccarte2{
+	width: 364px;
+	float: left;
+	height: 367px
+}
+
+.bloccarte2 h2{
+	font-weight: bold;
+
+	font-size: 24px;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+
+}
+
+
+
+
+/******************************************************************************
+**** ***************Accueil 
+*******************************************************************************/
+
+
+.bandeau{
+	position: absolute;
+	width: 315px;
+	height: 45px;
+	background: url('../img/bandeau.png') no-repeat;
+	top: 24px;
+	z-index: 100;
+	
+	left: 2px;
+	margin-left: -14px;
+
+}
+
+
+.presentation{
+	float: left;
+	width: 629px;
+
+
+
+}
+
+.bandeau h1{
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color:  #444444;
+	text-align: center;
+	line-height: 39px;
+	border: none;
+	margin-bottom: 21px;
+	text-transform: uppercase;
+}
+
+
+
+
+
+
+.presentation h1{
+	font-size: 36px;
+	font-family: 'Satisfy', Helvetica, Arial, sans-serif;
+	border-bottom: 1px solid #d9d9d9;
+	margin-bottom: 25px;
+	height: 53px;
+}
+
+#container{
+	min-height: 100%;
+	position: relative;
+}
+
+#body{
+	padding-bottom: 110px;
+	margin-top: 123px;
+	
+}
+
+
+/*******************************************************************************************
+la carte */
+
+.pizzas{
+	-moz-border-radius-topleft: 3px;
+	-moz-border-radius-topright:3px;
+	-moz-border-radius-bottomleft:3px;
+	-moz-border-radius-bottomright:3px;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-top-right-radius:3px;
+	-webkit-border-bottom-left-radius:3px;
+	-webkit-border-bottom-right-radius:3px;
+	border-top-left-radius:3px;
+	border-top-right-radius:3px;
+	border-bottom-left-radius:3px;
+	border-bottom-right-radius:3px;
+	background: #888787; /* Old browsers */
+	background: -moz-linear-gradient(top,  #888787 0%, #faf7f7 50%, #c0c0c0 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#888787), color-stop(50%,#faf7f7), color-stop(100%,#c0c0c0)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #888787 0%,#faf7f7 50%,#c0c0c0 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #888787 0%,#faf7f7 50%,#c0c0c0 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #888787 0%,#faf7f7 50%,#c0c0c0 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #888787 0%,#faf7f7 50%,#c0c0c0 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#888787', endColorstr='#c0c0c0',GradientType=0 ); /* IE6-9 */
+	width: 399px;
+	padding: 25px 20px 10px 20px; 
+	/*margin-right: 80px;*/
+	margin-bottom: 20px;
+	color: #444444;
+
+}
+
+.pizzas h2{
+	font-size: 24px;
+	color: #444444;
+	margin: 0;
+	padding: 0;
+	width: 210px;
+	float: left;
+}
+
+
+
+.pizzas span.prix{
+	font-size: 24px;
+	color: #444444;
+	margin: 0;
+	padding: 0;
+	width: 170px;
+	float: right;
+	display: inline-block;
+}
+
+.pizzas p{
+
+	color: #444444;
+	font-size: 14px;
+	float: none;
+	height: 50px;
+	margin-top: 50px;
+
+}
+
+
+#commande {
+	background: none repeat scroll 0 0 #444444;
+	float: left;
+	height: 979px;
+	margin-left: 15px;
+	margin-right: 28px;
+	position: relative;
+	width: 388px;
+}
+
+
+#commande h2{
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 10px;
+	text-align: center;
+	color:#444444;
+}
+
+
+
+
+
+.rubandcommande{
+
+
+	position: absolute;
+	width: 406px;
+	height: 40px;
+	background: url('../img/rubancommande.png') no-repeat;
+	top: 24px;
+	z-index: 100;
+	
+	left: 2px;
+	margin-left: -12px;
+}
+
+#map{
+	width: 387px;
+	height: 273px;
+}
+
+
+
+/*******************************************************************************************
+FOOTER */
+
+footer{
+	position: absolute;
+	bottom:0;
+	color: #444444;
+	width: 100%;
+	background: #c0c0c0; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2MwYzBjMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM4ODg3ODciIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #c0c0c0 0%, #ffffff 50%, #888787 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#c0c0c0), color-stop(50%,#ffffff), color-stop(100%,#888787)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #c0c0c0 0%,#ffffff 50%,#888787 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #c0c0c0 0%,#ffffff 50%,#888787 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #c0c0c0 0%,#ffffff 50%,#888787 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #c0c0c0 0%,#ffffff 50%,#888787 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c0c0c0', endColorstr='#888787',GradientType=0 ); /* IE6-8 */
+
+	height: 84px;
+
+}
+
+footer p{
+	width: 610px;
+	float: left;
+	height: 84px;
+	line-height: 84px;
+	margin: 0;
+	padding: 0;
+
+}
+
+footer p span{
+
+vertical-align:middle;
+display:inline-block;
+line-height:1.2; /* on rétablit le line-height */
+text-align:left; /* ... et l'alignement du texte */ }
+
+
+#footer{
+	width: 904px;
+	
+	margin: auto;
+}
+
+#patonart{
+	float: right;
+}
